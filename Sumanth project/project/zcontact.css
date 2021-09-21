@@ -1,0 +1,72 @@
+body{
+  background-color: skyblue;
+}
+a{
+  text-decoration: none;
+  color:white;
+  background-color: red;
+  text-align:center;
+  border-radius: 12px;
+  border: solid white;
+  font-family:sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  position:absolute;
+  right:4px;
+  top:7px;
+  padding:12px;
+}
+.s{
+border: solid white;
+width:400px;
+height:500px;
+background-color:lightgreen;
+position:absolute;
+top:300px;
+left:750px;
+text-align: center;
+font-family: sans-serif;
+font-size: 30px;
+font-weight: bold;
+color:white;
+border-top-left-radius: 30px;
+border-bottom-right-radius: 30px;
+}
+input[type="text"],input[type="password"],input[type="email"]
+{
+  outline: none;
+border-radius: 12px;
+border-style: inset;
+  margin:5px 18px;
+  text-align: center;
+  height:25px;
+  width:250px;
+  color:black;
+  font-family: sans-serif;
+}
+input[type="submit"]
+{
+  margin-top: 30px;
+  border-radius: 12px;
+  background-color: red;
+  font-weight: bold ;
+  color:white;
+  border:solid white;
+  width:150px;
+  height:30px;
+  font-family: sans-serif;
+}
+input[type="submit"]:hover{
+  background-color: lightblue;
+}
+textarea{
+  outline: none;
+border-radius: 12px;
+border-style: inset;
+  margin:5px 18px;
+  text-align: center;
+  height:150px;
+  width:250px;
+  color:black;
+  font-family: sans-serif;
+}

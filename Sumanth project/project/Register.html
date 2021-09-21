@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html >
+<head>
+<link rel="stylesheet" href="zloginzregisterzcontactus.css">
+<a href="MOBREC.html">Home Page</a>
+<script type="text/javascript">
+  function validate()
+  {
+    var pno=document.getElementById("n").value;
+    if(isNaN(pno))
+    {
+      alert("invalid phone number");
+      return false;
+    }
+    else {
+      {
+        confirm("your registration compleated ")
+        return true;
+      }
+    }
+  }
+</script>
+</head>
+<body>
+  <div class="s">
+     <form onsubmit="return validate()" action="MOBREC.html" >
+      <p>Registration</p>
+       <input id="n" type="text"  placeholder="Phone Number"  required>
+       <input type="email" placeholder="Email" required>
+      <input type="submit"  value="Register">
+     </form>
+    </div>
+  </body>
+</html>

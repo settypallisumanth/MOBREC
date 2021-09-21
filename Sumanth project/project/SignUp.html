@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+<link rel="stylesheet" href="zsignup.css">
+<script type="text/javascript">
+  function validate()
+  {
+    var n1=document.getElementById("p1").value,n2=document.getElementById("p2").value;
+    if(n1!=n2)
+    {
+      alert("password didn't match");
+      return false;
+    }
+    else {
+
+        confirm("you can go next");
+        return true;
+    }
+  }
+</script>
+  </head>
+  <body>
+      <a href="MOBREC.HTML">Home Page</a>
+    <div class="s">
+    <form onsubmit="return validate()" action="Register.html" >
+      <p>SignUp</p>
+      <input  type="text" placeholder="Firstname" required>
+      <input type="text"  placeholder="Lastname" required>
+      <input type="date" placeholder="DOB" required>
+      <input id="p1" type="password"  placeholder="password" required>
+      <input id="p2" type="password"  placeholder="confirmpassword" required>
+      <input type="submit"  value="Next">
+      </div>
+    </form>
+  </body>
+</html>

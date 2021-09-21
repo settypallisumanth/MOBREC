@@ -1,0 +1,152 @@
+body{
+background-color:skyblue;
+}
+.s h1
+{
+  font-size: 70px;
+  font-family: monospace;
+  margin:0px;
+  margin-left:5px;
+  color:white;
+}
+.mobrec span
+{
+  color:red;
+}
+.s ul{
+
+  list-style:none;
+}
+a{
+  color:white;
+  text-decoration:none;
+}
+.s ul li{
+
+height:30px;
+width:126px;
+text-align:center;
+position: static;
+float:left;
+font-size: 25px;
+color:white;
+border-radius: 12px;
+background-color:red;
+margin:0px 60px;
+padding: 10px;
+
+}
+
+.s ul li:hover{
+  background-color:pink;
+  transition:0.5s;
+  border-radius:12px;
+}
+.s ul li ul
+{
+
+position: relative;
+right: 95px;
+top:12px;
+display:none;
+}
+.s ul li:hover>ul
+{
+
+  display:block;
+}
+.s ul li ul li
+{
+  height:15;
+width:110px;
+padding:0px;
+text-align:center;
+  background-color:black;
+}
+i{
+  padding-right: 10px;
+}
+
+.s1{
+  text-align: center;
+  border-radius: 12px;
+  border:7px solid white;
+  background-color:red;
+  color:white;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  position: absolute;
+  top:400px;
+  left:350px;
+  height:300px;
+  width:300px;
+  padding: 20px;
+}
+.s2{
+  text-align: center;
+  border-radius: 12px;
+  border:7px solid white;
+  background-color: red;
+  color:white;
+  font-size: 35px;
+  font-style: italic;
+  font-weight: bold;
+  position: absolute;
+  top:400px;
+  left:825px;
+  height:300px;
+  width:300px;
+    padding: 20px;
+}
+.s3{
+  text-align: center;
+  border-radius: 12px;
+  border:7px solid white;
+  background-color: red;
+  color:white;
+  font-size: 35px;
+  font-style: italic;
+  font-weight: bold;
+  position: absolute;
+  top:400px;
+  left:1300px;
+  height:300px;
+  width:300px;
+    padding: 20px;
+}
+.s1 i,.s2 i,.s3 i{
+color:white;
+  font-size:60px;
+}
+.s1 a,.s2 a,.s3 a{
+margin-left: 5px;
+  color:black;
+
+}
+.s2 p,.s3 p{
+  position:relative;
+  top:70px;
+}
+.s2 h2,.s3 h2{
+  position: relative;
+  top:25px;
+}
+.s1:hover,.s2:hover,.s3:hover{
+  background-color:lightblue;
+  transition:0.6s;
+  transform:scale(1.1);
+}
+.s4
+{
+  position:absolute;
+  top:800px;
+  left:900px;
+  font-family: monospace;
+  font-weight: bold;
+  font-size:50px;
+  color:white;
+}
+.s4 span{
+  color:red;
+}

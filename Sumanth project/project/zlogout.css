@@ -1,0 +1,19 @@
+body{
+background-color: lightgreen;
+}
+.s{
+  position: absolute;
+  top:200px;
+  left:210px;
+}
+ h1{
+
+  font-weight: bold;
+  font-style: italic;
+  font-size: 100px;
+  text-align: center;
+  color:white
+}
+h1 span{
+  color:red;
+}

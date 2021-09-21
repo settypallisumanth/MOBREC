@@ -1,0 +1,38 @@
+body{
+  background-color: skyblue;
+}
+h1{
+  color:red;
+  font-family: monospace;
+  font-weight: bold;
+  text-align: center;
+}
+
+table,td,tr,th{
+  text-align: center;
+  width:1200px;
+  border-collapse: collapse;
+  border: solid white;
+  background-color: lightgreen;
+}
+
+td{
+  border:solid white;
+}
+p{
+  font-weight: bold;
+  color:white;
+
+}
+input[type="submit"]
+{
+  margin:4px auto;
+  background-color: red;
+  border-radius: 12px;
+  color:white;
+  border:solid white;
+}
+input[type="submit"]:hover
+{
+  background-color: lightblue;
+}

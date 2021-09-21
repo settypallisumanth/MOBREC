@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="zloginzregisterzcontactus.css">
+    <a href="MOBREC.html">Home Page</a>
+<script >
+function validate()
+{
+var name=document.getElementById("id1").value;
+if(isNaN(name))
+{
+  return true;
+}
+else
+{
+    alert("invalid name");
+    return false;
+}
+}
+</script>
+
+</head>
+  <body>
+    <div class="s">
+    <form  action="MOBREC.html"  onsubmit="return validate()">
+      <p>Login</p>
+      <input type="text"  placeholder="username" id="id1" required >
+      <input  type="password"  placeholder="password" required >
+      <input type="submit"  value="Login" >
+    </form>
+  </div>
+  </body>
+</html>
